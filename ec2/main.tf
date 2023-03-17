@@ -4,6 +4,8 @@ resource "aws_instance" "aman_ec2" {
   tags          = var.common_tags
 
   volume_tags = {
-    tags = var.common_tags
-  }
+    Name = "aman_mittal"
+    Owner = "aman.mittal@cloudeq.com"
+    Purpose = "training"
+ }
 }
