@@ -9,8 +9,8 @@ on:
         type: string 
 
 env:
-  # BUCKET:
-  # TFSTATE_FILE: terraform.tfstate
+  BUCKET: aman-batch-s3
+  TFSTATE_FILE: terraform.tfstate
   aws_region: ${{ github.event.inputs.region }}
 
 jobs:
